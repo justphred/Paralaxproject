@@ -1,6 +1,19 @@
 
+Overall concept article
+http://keithclark.co.uk/articles/pure-css-parallax-websites/
+
+Graph Paper SVG
+http://www.heropatterns.com/
+
 Misty Landscape
 https://pixabay.com/en/landscape-valley-mist-misty-404072/
+
+Tree Frog #3
+https://commons.wikimedia.org/wiki/File%3ARed-eyed_Tree_Frog_(Agalychnis_callidryas)_1.png
+By Red-eyed Tree Frog (Agalychnis callidryas) 3.jpg:
+Geoff Gallice from Gainesville, FL, USA derivative work: B kimmel
+[CC BY 2.0 (http://creativecommons.org/licenses/by/2.0)], via Wikimedia Commons
+
 
 http://idsgn.dropmark.com/107
 Choose your ipsum
@@ -27,3 +40,23 @@ Baseball ipsum dolor sit amet petey red sox alley left fielder starter. Strike z
 Leather force fastball gap yankees bleeder away southpaw. Foul pole tapper tossed pinch runner crooked number dodgers umpire ball arm. Wild pitch umpire slugging mendoza line visitors pickoff grass bat hack. Corner pinch runner relief pitcher grass bleeder, cup of coffee wins forkball. Defensive indifference club leadoff knuckle hardball dribbler wrigley outside. Foul line all-star second base no-hitter extra innings check swing peanuts fenway relay.
 
 League wild pitch can of corn off-speed manager, right field sweep double play nubber. Swing grand slam butcher boy umpire season rhubarb plate stadium all-star. Runs on deck mound mendoza line practice small ball third baseman outs. Peanuts peanuts mendoza line bleeder arm arm full count. Retire pinch hit dead red skipper sacrifice bunt right field inside. On deck cookie stadium full count out hitter grand slam crooked number baseball.
+
+=================================================================================
+=================================================================================
+Obviously, this is one big hack.  Virtually no work was put into making it
+responsive - things break at smaller screen heights and widths.
+The overall concept of the multi-layered parallax display, right down to the
+change-the-perspective button/function, was lifted from an article written by
+Keith Clark and published here: http://keithclark.co.uk/articles/pure-css-parallax-websites/
+I just wanted to try dropping different types of content into the layers to see
+what I could do with it.
+
+The graph paper SVG background pattern was found here http://www.heropatterns.com/
+I'm continually amazed at the things that people put out into the public domain
+for use by others.
+
+A Creative Commons search turned up the misty-valley-landscape image, here:
+https://pixabay.com/en/landscape-valley-mist-misty-404072/
+
+The tree frog photo also turned up in a Creative Commons search, here:
+https://commons.wikimedia.org/wiki/File%3ARed-eyed_Tree_Frog_(Agalychnis_callidryas)_1.png

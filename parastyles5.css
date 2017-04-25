@@ -97,7 +97,8 @@ body {
 #group1 { z-index: 5; }
 #group1 .parallax_layer-base {
   background: rgba(100, 100, 100, 0.7);
-  color: #405b41;
+  /*color: #405b41;*/
+  color: #2a962b;
   font-family: 'Berkshire Swash', cursive;
   /*font-size: 200%;*/
   font-size: 3.5em;
@@ -347,5 +348,5 @@ body {
   background: rgba(128, 128, 128, 0.5);
   color: white;
   transform: rotate(-90deg);
-  transform-origin: top right;  
+  transform-origin: top right;
 }
