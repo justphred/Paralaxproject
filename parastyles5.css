@@ -339,14 +339,33 @@ body {
   background-color: #000;
   border-top: 1px solid yellow;
 }
-.disclosure-title {
-
-}
+.disclosure-title {  }
 .disclosure-title span {
   display: block;
   font-size: 150%;
   background: rgba(128, 128, 128, 0.5);
   color: white;
-  transform: rotate(-90deg);
-  transform-origin: top right;
+  padding: 1em;
+  overflow: hidden;
+  /*transform: rotate(-90deg);*/
+  /*transform-origin: top right;*/
+}
+.disclosure {
+  width: auto;
+  /*max-width: 13em;*/
+  max-width: 60%;
+  margin: 0 auto;
+}
+.disclosure p {
+  font-size: 60%;
+}
+
+@media all and (max-width: 730px) {
+  .disclosure {
+    max-width: none;
+    margin: 0 .5em 0 .5em;
+  }
+  .disclosure p {
+    font-size: 50%;
+  }
 }

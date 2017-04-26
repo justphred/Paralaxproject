@@ -46,10 +46,10 @@ League wild pitch can of corn off-speed manager, right field sweep double play n
 Obviously, this is one big hack.  Virtually no work was put into making it
 responsive - things break at smaller screen heights and widths.
 The overall concept of the multi-layered parallax display, right down to the
-change-the-perspective button/function, was lifted from an article written by
+change-the-perspective button/function, was "borrowed" from an article written by
 Keith Clark and published here: http://keithclark.co.uk/articles/pure-css-parallax-websites/
 I just wanted to try dropping different types of content into the layers to see
-what I could do with it.
+what could be done with it.
 
 The graph paper SVG background pattern was found here http://www.heropatterns.com/
 I'm continually amazed at the things that people put out into the public domain
