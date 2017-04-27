@@ -339,6 +339,11 @@ body {
   background-color: #000;
   border-top: 1px solid yellow;
 }
+.disclosure {
+  width: auto;
+  max-width: 60%;
+  margin: 0 auto;
+}
 .disclosure-title {  }
 .disclosure-title span {
   display: block;
@@ -350,14 +355,14 @@ body {
   /*transform: rotate(-90deg);*/
   /*transform-origin: top right;*/
 }
-.disclosure {
-  width: auto;
-  /*max-width: 13em;*/
-  max-width: 60%;
-  margin: 0 auto;
+.disclosure-text {
+  font-size: .7em;
 }
-.disclosure p {
-  font-size: 60%;
+.disclosure-text p {
+  margin-bottom: .4em;
+}
+.disclosure-text p a {
+  text-decoration: none;
 }
 
 @media all and (max-width: 730px) {
@@ -365,7 +370,13 @@ body {
     max-width: none;
     margin: 0 .5em 0 .5em;
   }
-  .disclosure p {
-    font-size: 50%;
+  .disclosure-text {
+    font-size: .5em;
+  }
+}
+@media all and (max-width: 420px) {
+  .disclosure-title span {
+    padding: .5em 1em .5em 1em;
+    font-size: 125%;
   }
 }
