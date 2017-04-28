@@ -129,7 +129,7 @@ body {
 #group4 { z-index: 2; }
 #group4 .parallax_layer-deep {
   /*background: rgba(100, 100, 100, 0.9); */
-  background-image: url("images/misty-valley-landscape.jpg");
+  background-image: url("../images/misty-valley-landscape.jpg");
   background-size: cover;
   /*background-position: left center;*/
 }
@@ -426,14 +426,6 @@ body {
       -ms-flex: 0 0 80%;
           flex: 0 0 80%;
 }
-.lastfoot {
-  -webkit-box-flex: 0;
-      -ms-flex: 0 0 15%;
-          flex: 0 0 15%;
-  height: 20vh;
-  background-color: #000;
-  border-top: 1px solid yellow;
-}
 .disclosure {
   width: auto;
   max-width: 60%;
@@ -459,6 +451,34 @@ body {
 .disclosure-text p a {
   text-decoration: none;
 }
+
+.lastfoot {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 15%;
+          flex: 0 0 15%;
+  height: 20vh;
+  background-color: #000;
+  border-top: 1px solid yellow;
+
+  display: table;
+  /*position: absolute;*/
+  /*height: 100%;*/
+  width: 100%;
+}
+.lastfoot-vcenter {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.copyright {
+  color: yellow;
+  padding: .5em;
+  font-size: 40%;
+  margin: 0 auto;
+  width: 40%;
+  text-align: center;
+}
+
 
 @media all and (max-width: 730px) {
   .disclosure {
