@@ -464,6 +464,10 @@ body {
 /*transform: rotate(-90deg);*/
 /*transform-origin: top right;*/
 
+.bordergreen {
+  border: 2px solid green;
+}
+
 @media all and (max-width: 730px) {
   #group1 .parallax_layer-base .title {
     font-size: .6em;
