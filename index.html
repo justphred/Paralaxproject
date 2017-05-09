@@ -8,7 +8,7 @@
     <link href="build/parastyles5.css" rel="stylesheet" type="text/css">
   </head>
   <body>
-    <div class="toggleview bordergreen">
+    <div class="toggleview">
       <span><a href="#">Toggle Perspective</a></span>
     </div>
     <div class="parallax">
@@ -294,8 +294,9 @@
     <script>
       $(function() {
         $(".toggleview span a").on("click", function() {
-          $(".parallax_group").toggleClass("persp-view");
-          removeClass(".toggleview", "bordergreen");
+          // $(".parallax_group").toggleClass("persp-view");
+          // toggleClass(".toggleview", "bordergreen");
+          toggleClass(".parallax_group", "persp-view");
         });
       });
     </script>

@@ -55,6 +55,7 @@ function toggleClass (elements, aClass) {
   if(typeof(elements) === 'string') {
     elements = document.querySelectorAll(elements);
   }
+  // Otherwise, if a single DOM element was passed in, make it into an array.
   else if(elements.tagName) {elements=[elements];}
 
   for (var k = 0; k < elements.length; k++) {
@@ -70,4 +71,4 @@ function toggleClass (elements, aClass) {
       elements[k].className = elements[k].className.replace(pattern, ' ');
     }
   }
-}// End function toggleClass (elements, aClass) 
+}// End function toggleClass (elements, aClass)
