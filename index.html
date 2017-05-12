@@ -290,14 +290,12 @@
       </div>
     </div>  <!-- End div class = parallax -->
     <script src="js/myJSutils.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> -->
     <script>
-      $(function() {
-        $(".toggleview span a").on("click", function() {
-          // $(".parallax_group").toggleClass("persp-view");
-          // toggleClass(".toggleview", "bordergreen");
-          toggleClass(".parallax_group", "persp-view");
-        });
+      var toggleBttn = document.querySelector(".toggleview span a");
+      toggleBttn.addEventListener("click", function(event) {
+        toggleClass(".parallax_group", "persp-view");
+        console.log(event.target.type + "toggling class now");
       });
     </script>
   </body>
